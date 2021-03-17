@@ -1,0 +1,13 @@
+.display-photos {
+    display: grid;
+    width: 90vw;
+    margin: 2rem auto;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    grid-gap: 1rem;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
